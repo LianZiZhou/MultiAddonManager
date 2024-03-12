@@ -462,6 +462,7 @@ bool MultiAddonManager::AddAddon(const char *pszAddon, bool bRefresh = true)
 
 	Message("Adding %s to addon list\n", pszAddon);
 
+
 	m_ExtraAddons.AddToTail(pszAddon);
 
 	if (bRefresh)
