@@ -452,7 +452,7 @@ void MultiAddonManager::OnAddonDownloaded(DownloadItemResult_t *pResult)
 	}
 }
 
-bool MultiAddonManager::AddAddon(const char *pszAddon, bool bRefresh = false)
+bool MultiAddonManager::AddAddon(const char *pszAddon, bool bRefresh = true)
 {
 	if (m_ExtraAddons.Find(pszAddon) != -1)
 	{
